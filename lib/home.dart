@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:morning_app/about.dart';
+import 'package:morning_app/chat.dart';
 import 'package:morning_app/detail.dart';
 import 'package:morning_app/form_add.dart';
 import 'package:morning_app/product_screen.dart';
@@ -81,6 +82,17 @@ class _HomeState extends State<Home> {
               );
             },
             child: const Text("Add Product"),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ChatScreen(),
+                ),
+              );
+            },
+            child: const Text("Chat"),
           ),
         ],
       ),

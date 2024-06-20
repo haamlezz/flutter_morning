@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "403744934583",
+    "project_id": "it-afternoon-2024",
+    "storage_bucket": "it-afternoon-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403744934583:android:d299c710147da566a01b32",
+        "android_client_info": {
+          "package_name": "com.example.morning_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApGoYXjrEIjMsu4Acj6EWRJNz5eLqZLsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
